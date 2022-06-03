@@ -55,14 +55,13 @@ const garciaPets = {
         'catchPhrase':'We were outside and so we inside'
     },
     'NOT MY BEBE!!':{
-        'species':'',
-        'eater':'',
-        'climate':'',
-        'activeTime':''
+        'species':'Nope',
+        'eater':'Nopevivore',
+        'climate':'Musty',
+        'activeTime':'Nope-O-clock'
     }
 
 }
-
 
 app.get('/', (request, response)=>{
     response.sendFile(__dirname + '/index.html')
